@@ -1,14 +1,14 @@
 import streamlit as st
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 import pandas as pd
 import numpy as np
 import altair as alt
 
-# Sample Hist Plot
-rand = np.random.normal(1, 2, size=20)
-fig, ax = plt.subplots()
-ax.hist(rand, bins=15)
-st.pyplot(fig)
+# # Sample Hist Plot
+# rand = np.random.normal(1, 2, size=20)
+# fig, ax = plt.subplots()
+# ax.hist(rand, bins=15)
+# st.pyplot(fig)
 
 # Line Chart
 df = pd.DataFrame(np.random.randn(10, 2),    columns=['x', 'y'])
